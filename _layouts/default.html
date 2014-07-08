@@ -2,11 +2,11 @@
 <span class="statusbar"></span>
 {% include page-nav.html %}
 
-<!-- Wrap all page content here -->
 <div id="wrap">
     <div class="container">
         <div class="row row-offcanvas row-offcanvas-left">
-            <!-- side bar -->
+
+
             <nav id="nav" role="navigation" class="col-sm-2 sidebar-offcanvas">
                 <header id="menu" role="banner">
                     <p class="menu-title">Close</p>
@@ -19,18 +19,26 @@
                     <li><a href="{{site.url}}/search.html">Search</a></li>
                 </ul>
             </nav>
+
+
             <header id="menu" role="banner">
                 <p class="menu-title">Menu</p>
                 <a href="#nav" class="menu-btn">navigation</a>
             </header>
-            <!-- Content -->
+
+
+
             <div class="content col-sm-10">
                 <div class="row strip">
                     {{ content }}
                 </div>
             </div>
+
+
         </div>
     </div>
+
+
     <footer class="footer text-center blog-meta">
     </footer>
 </div>
