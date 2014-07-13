@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Scheme"
+title:  "Understanding OLAP"
 date:   2014-03-03
 tags: languages
 comments: true

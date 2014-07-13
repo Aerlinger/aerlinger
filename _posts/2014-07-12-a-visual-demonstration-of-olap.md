@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Julia Lang"
+title:  "Understanding OLAP"
 date:   2014-03-03
 tags: languages
 comments: true
