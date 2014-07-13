@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How to contribute to open source"
+title:  "A few (very) brieft points on contributing to open source."
 date:   2014-03-03
 tags: open_source
 comments: true
@@ -10,10 +10,8 @@ comments: true
 # How to get started contributing to Open Source projects
 
 Open source software (OSS) is competitive. As such, developers of all ability levels
-generally have a "mental block" when it comes to submitting a contribution.
-Having been involved in various projects, I wanted to share some things I've
-learned that I wish I would have known sooner.
-
+generally have a "mental block" when it comes to submitting a contribution. There's been a great deal posted on this topic (see below).
+Still, I wanted to share some things I've learned that I wish I would have known sooner.
 
 ### Before you start
 *Most of these seem obvious, but it's always good to make sure you've got
@@ -42,6 +40,7 @@ development.
 ### Getting your feet wet
 
   1. Familiarize yourself with the projects git history.
+  2. **Solicit feedback** Post on community challenges to get feedback on what you're planning on doing _before_ you start.
   1. **Identify low-risk changes you can make:** If you're making your first
 pull-request to a repository, try to introduce a change that's
 relatively low risk. Look at it from the perspective of the project owner. If you're not a familiar face, it's going to be much
@@ -51,13 +50,19 @@ preferably on non "mission critical" parts of the system. Some example may inclu
     - Adding tests
     - Improve the wording of logging messages such as warnings, errors,
 etc...
-  2. Post on community challenges to get feedback on what you're planning on doing _before_ you start.
-  Like I said, OSS is very competitive so it's likely that what you're proposing may have already been done or is in the process of being done.
+
+    This may seem a bit mundane but it's a **great** way to both familiarize yourself with the codebase and contribute at the same time.
+  3. In line with the previous, Be sure your git usage is well organized.
+    - Initial pull requests should be small and focused on a single feature or task (less than 8 commits).
+    - Commits should also be small and well isolated. Commit messages should not span more than line.
+    - On Github, be sure to reference the pull request in any relevant discussions.
+
+    Like I said, OSS is very competitive so it's likely that what you're proposing may have already been done or is in the process of being done.
   3. **Always add tests and proper documentation:**
   4. **Rebase key branches constantly** This means constantly running `git pull -r` on the master/development branches.
 
 
-Again, these are just a few quick pointers.
+Good luck!
 
 ##Additional Resources
 
