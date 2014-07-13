@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Understanding OLAP"
+title:  "A visual demonstration of relational algebra in SQL"
 date:   2014-03-03
 tags: languages
 comments: true

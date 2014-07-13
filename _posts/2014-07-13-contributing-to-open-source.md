@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "A few (very) brieft points on contributing to open source."
+title:  "A few (very) brief tips on contributing to open source"
 date:   2014-03-03
 tags: open_source
 comments: true

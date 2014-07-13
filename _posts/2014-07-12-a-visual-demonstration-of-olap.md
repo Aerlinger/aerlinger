@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Understanding OLAP"
+title:  "A visual demonstration of OLAP"
 date:   2014-03-03
 tags: languages
 comments: true
