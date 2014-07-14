@@ -4,8 +4,20 @@ body {
 }
 
 html, body {
-  background-color: #777;
+  background-color: #313A44 !important;
   height: 100%;
+}
+
+#wrap {
+  min-height: 100%;
+  height: auto;
+  margin: 0 auto -70px;
+  padding: 0;
+  border: 0 1px solid grey;
+}
+
+#wrap > .container {
+  max-width: 920px !important;
 }
 
 a:hover {
@@ -62,23 +74,12 @@ a:hover {
   padding: .1em 0 1px;
 }
 
-#wrap {
-  min-height: 100%;
-  height: auto;
-  margin: 0 auto -70px;
-  padding: 0;
-
-  border: 0 1px solid grey;
-}
-
-#wrap > .container {
-  max-width: 920px !important;
-}
-
 #content {
-  border-left: 2px solid red;
+  border-left: 5px solid #313A44;
+
   border-right: 1px solid black;
   min-height: 600px;
+  background: white;
 }
 
 .footer {
@@ -164,7 +165,7 @@ a:hover {
 }
 
 .page-preview-title, .postlist-title {
-  font-size: 22px;
+  font-size: 16px;
   font-weight: 700;
 }
 
@@ -180,8 +181,9 @@ a:hover {
   padding: 20px 15px 0;
 }
 
-.post > .container, #wrap > .container {
-  padding: 75px 0 60px;
+.post > .container,
+#wrap > .container {
+  /*padding: 75px 0 60px;*/
 }
 
 .post-comments {
@@ -214,7 +216,7 @@ a:hover {
 }
 
 .post-title {
-  font-size: 32px;
+  font-size: 24px;
   font-weight: 700;
 }
 
@@ -253,12 +255,19 @@ a:hover {
   display: block;
   background: white;
   border-left: 4px solid black;
+  border-bottom: 1px solid lightgray;
 
   margin: 0;
 }
 
+.sidebar li:last-child {
+  border-bottom: 1px solid black;
+}
+
 .sidebar li:hover {
   background: black;
+  border-left: 4px solid red;
+  border-bottom: 1px solid red;
   color: white;
 }
 
