@@ -2,6 +2,6 @@
 # More info at https://github.com/guard/guard#readme
 
 guard 'jekyll' do
-  watch /.*/
-  ignore /_site/
+  #watch /.*/
+  watch /_site/
 end
